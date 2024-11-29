@@ -16,3 +16,42 @@ Below is a list of the available datasets for Ancient Latin translation. Each da
 # For italian speakers  📜
 
 ### 1. **Hugging Face Datasets**
+
+# Latin-Italian Parallel Dataset
+
+This dataset consists of **5,000 parallel sentences** in **Latin** and **Italian**. It is designed for machine learning tasks involving language translation, specifically for translating between Latin and Italian.
+
+## Dataset Overview
+
+- **Name**: `latin_italian_parallel`
+- **Size**: 5,000 rows
+- **Languages**: Latin, Italian
+- **Format**: Sentence pairs (Parallel corpus)
+- **Source**: [Hugging Face Dataset](https://huggingface.co/datasets/Dddixyy/latin_italian_parallel)
+
+## Files in the Dataset
+
+The dataset contains two columns:
+
+- **latin**: The Latin text.
+- **italian**: The corresponding Italian translation.
+
+## Usage
+
+You can load the dataset using Hugging Face's `datasets` library. Below is a basic example of how to load and use the dataset.
+
+```python
+from datasets import load_dataset
+
+# Load the dataset
+dataset = load_dataset("Dddixyy/latin_italian_parallel")
+
+# Accessing the train split
+train_data = dataset['train']
+
+# Example: Display the first few rows
+for example in train_data[:5]:
+    print(f"Latin: {example['latin']}")
+    print(f"Italian: {example['italian']}")
+    print('-' * 80)
+
