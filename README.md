@@ -43,7 +43,7 @@ train_data = dataset['train']
 for example in train_data[:5]:
     print(f"Latin: {example['latin']}")
     print(f"Italian: {example['italian']}")
-    print('-' * 80)
+    print('-' * 80)```
 
 
 
