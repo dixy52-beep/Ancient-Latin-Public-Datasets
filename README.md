@@ -6,7 +6,7 @@ The goal of this repository is to centralize high-quality data resources that ca
 
 Feel free to explore, contribute, or use these datasets for your projects, and don't hesitate to reach out for collaborations or inquiries.
 
-# For english speakers
+# For english speakers 🇬🇧 📜
 
 ## Datasets
 
