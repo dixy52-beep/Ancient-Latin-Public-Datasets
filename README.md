@@ -9,9 +9,10 @@ Feel free to explore, contribute, or use these datasets for your projects, and d
 
 ## Public Latin Language Datasets
 
-| Dataset                                 | Access Link                                                                      | Accessibility | Languages      | Use Case       |
-| --------------------------------------- | -------------------------------------------------------------------------------- | ------------- | -------------- | -------------- |
-| Latin-English Parallel                  | [Link](https://huggingface.co/datasets/grosenthal/latin_english_parallel)          | open          | Latin, English | Translation    |
-| Latin-English Translation               | [Link](https://huggingface.co/datasets/grosenthal/latin_english_translation)       | open          | Latin, English | Translation    |
-| Latin-Italian Translation               | [Link](https://huggingface.co/datasets/Dddixyy/translation_latin_to_italian)       | open          | Latin, Italian | Translation    |
-| Latin-Italian Parallel                  | [Link](https://huggingface.co/datasets/Dddixyy/latin_italian_parallel)             | open          | Latin, Italian | Translation    |
+| Dataset                                 | Access Link                                                                      | Accessibility | Languages      | Use Case       | Dataset size |
+| --------------------------------------- | -------------------------------------------------------------------------------- | ------------- | -------------- | -------------- | -------------- |
+| Latin-English Parallel                  | [Link](https://huggingface.co/datasets/grosenthal/latin_english_parallel)          | open          | Latin, English | Translation    | 90k rows     |
+| Latin-English Translation               | [Link](https://huggingface.co/datasets/grosenthal/latin_english_translation)       | open          | Latin, English | Translation    | 99k rows     |
+| Latin-Italian Translation               | [Link](https://huggingface.co/datasets/Dddixyy/translation_latin_to_italian)       | open          | Latin, Italian | Translation    | 180 rows     |
+| Latin-Italian Parallel                  | [Link](https://huggingface.co/datasets/Dddixyy/latin_italian_parallel)             | open          | Latin, Italian | Translation    | 20k sent.    |
+| Latino-Italiano Trad. DIRETTE           | [Link](https://huggingface.co/datasets/Dddixyy/latino_italiano_traduzioni_DIRETTE) | open          | Latin, Italian | Translation    | 1k rows      |
